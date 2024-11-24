@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+body{
+    align-content: center;
+    font-family: "Sora", sans-serif;
+    margin: 0;
+    
+}
+
+header{
+    background-color: white;
+    box-shadow: 0vh .01vh 0.5vh rgba(0, 0, 0, 0.549);
+    padding: 0;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+
+} 
+
+.nav-left ul, .nav-right {
+    display: flex;
+    align-items: center; 
+} 
+
+.nav-left ul li, .nav-right ul li {
+    margin: 1vh;
+    list-style-type: none; 
+} 
+
+.nav-left ul li a img { 
+    width: 6vh;  
+    height: auto;
+} 
+
+nav a { 
+    color: black; 
+    font-weight: bold;
+    text-decoration: none; 
+} 
+
+.nav-left ul li a:hover { 
+    color: #00704A;
+} 
+
+.nav-right ul li a:hover { 
+    color: #808080;
+} 
+
+button {
+    padding: 1vh 2vh; 
+    margin-left: 0 1vh; 
+    cursor: pointer; 
+    font-weight: bold; 
+    border-radius: 50vh / 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 13vh;
+    border: none;
+} 
+
+button a {
+    text-decoration: none;  
+} 
+
+#btblanco {
+    background-color: white;
+    color: black;
+    border: 0.1vh solid black;
+}
+
+#btblanco a {
+    color: black;
+}
+
+#btblanco:hover {
+    background-color: #ffffff;
+    color: #808080;
+}
+
+#btnegro {
+    background-color: black;
+}
+
+#btnegro a {
+    color: white;
+}
+
+#btnegro:hover {
+    background-color: #000000cf
+}
