@@ -128,3 +128,22 @@ button a {
 #red-container {
     background-color: #D50032;
 }
+
+#conocemas {
+    display: flex;
+    padding: 1vh 1vh; 
+    margin: 1vh 40vh;
+    cursor: pointer; 
+    font-weight: bold;
+    border: 0.1vh solid white; 
+    width: 13vh; 
+    background-color: #D50032;
+}
+
+#conocemas a {
+    color: white;
+}
+
+#conocemas:hover {
+    background-color: #d43258cd;
+}
