@@ -94,3 +94,37 @@ button a {
 #btnegro:hover {
     background-color: #000000cf
 }
+
+.container {
+    margin: 0vh 5vh 4vh ;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container img {
+    height: 50vh;
+    width: auto;
+}
+
+.container .text {
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+    box-shadow: none;
+}
+
+#green-container {
+    background-color: #1E3932;
+}
+
+#blue-container {
+    background-color: #0044B4;
+}
+
+#red-container {
+    background-color: #D50032;
+}
