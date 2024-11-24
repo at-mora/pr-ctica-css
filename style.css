@@ -28,7 +28,7 @@ nav {
 } 
 
 .nav-left ul li, .nav-right ul li {
-    margin: 1vh;
+    margin: 0 3vh;
     list-style-type: none; 
 } 
 
@@ -53,7 +53,7 @@ nav a {
 
 button {
     padding: 1vh 2vh; 
-    margin-left: 0 1vh; 
+    margin-left: 1.5vh; 
     cursor: pointer; 
     font-weight: bold; 
     border-radius: 50vh / 50vh;
@@ -210,4 +210,94 @@ button a {
     a{
         color: #043F4D;
     }
+}
+
+
+footer {
+    padding: 3vh 10%;
+    box-shadow: 0vh .01vh 0.5vh rgba(0, 0, 0, 0.549);
+}
+
+.footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vh 105vh 0vh 0;
+}
+
+.footer-section h3 {
+    color: black;
+    margin-top: 5vh;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0  ;
+    line-height: 5vh;
+}
+
+.footer-section ul li a {
+    color: #7B7D81;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    color: black;
+}
+
+.footer-section2 {
+    display: flex;
+    justify-content: center;
+    margin: 3vh 0;
+}
+
+.footer-section2 img {
+    height: 6vh;
+    width: auto;
+}
+
+.footer-section2 ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.footer-section2 ul li a {
+    margin: 2vh;
+}
+
+.footer-section3 {
+    border-top: 1px solid #7B7D81;
+    text-align: center;
+    margin-top: 2vh;
+}
+
+.footer-section3 ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    gap: 2vh;
+    flex-wrap: wrap;
+}
+
+.footer-section3 ul li {
+    color: #a3a2a3;
+    position: relative;
+}
+
+.footer-section3 ul li a {
+    color: #a3a2a3;
+    text-decoration: none;
+}
+
+.footer-section3 ul li a:hover {
+    color: #7B7D81;
+}
+
+.footer-bottom {
+    width: 100%;
+    text-align: center;
+    margin-top: 3vh;
+    padding-top: 2vh;
+    color: #a3a2a3;
 }
