@@ -147,3 +147,67 @@ button a {
 #conocemas:hover {
     background-color: #d43258cd;
 }
+
+.dos-container {
+    margin: 0vh 5vh 4vh ;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dos-container img {
+    width: 89vh;
+    height: auto;
+}
+
+.noticias-container img{
+    background-color: #F6BFD9;
+}
+
+.noticias-container {
+    background-color: #F6BFD9;
+}
+
+.noticias-container .text {
+    color: #DB1938;
+    padding-bottom: 10vh;
+    text-align: center;
+    margin-right: 5%;
+    font-weight: bold;
+}
+
+.terminos-container img{
+    background-color: #98CDE4;
+}
+.terminos-container {
+    background-color: #98CDE4;
+}
+
+.terminos-container .text {
+    color: #043F4D;
+    padding-bottom: 10vh;
+    text-align: center;
+    margin-right: 5%;
+    font-weight: bold;
+}
+
+.botonesab {
+    margin: 0vh 38vh;
+    background-color: transparent;
+}
+
+#noticias {
+    border: 0.1vh solid #DB1938;
+    a {
+        color: #DB1938;
+    }
+}
+
+#terminos {
+    border: 0.1vh solid #043F4D;
+    a{
+        color: #043F4D;
+    }
+}
