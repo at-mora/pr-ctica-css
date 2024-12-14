@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body{
     align-content: center;
     font-family: "Sora", sans-serif;
-    margin: 0;
-    
 }
 
 header{
     background-color: white;
     box-shadow: 0vh .01vh 0.5vh rgba(0, 0, 0, 0.549);
-    padding: 0;
-
 }
 
 nav {
@@ -19,7 +21,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 0 10%;
-
+    flex-wrap: wrap;
 } 
 
 .nav-left ul, .nav-right {
@@ -97,10 +99,10 @@ button a {
 
 .container {
     margin: 0vh 5vh 4vh ;
-    padding: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .container img {
@@ -138,6 +140,7 @@ button a {
     border: 0.1vh solid white; 
     width: 13vh; 
     background-color: #D50032;
+    justify-content: center;
 }
 
 #conocemas a {
@@ -155,6 +158,7 @@ button a {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .dos-container img {
@@ -162,12 +166,16 @@ button a {
     height: auto;
 }
 
-.noticias-container img{
+.noticias-container {
     background-color: #F6BFD9;
 }
 
-.noticias-container {
-    background-color: #F6BFD9;
+.terminos-container {
+    background-color: #98CDE4;
+}
+
+.noticias-container img, .terminos-container img{
+    background-color: inherit;
 }
 
 .noticias-container .text {
@@ -176,13 +184,6 @@ button a {
     text-align: center;
     margin-right: 5%;
     font-weight: bold;
-}
-
-.terminos-container img{
-    background-color: #98CDE4;
-}
-.terminos-container {
-    background-color: #98CDE4;
 }
 
 .terminos-container .text {
@@ -200,18 +201,19 @@ button a {
 
 #noticias {
     border: 0.1vh solid #DB1938;
-    a {
-        color: #DB1938;
-    }
+}
+
+#noticias a {
+    color: #DB1938;
 }
 
 #terminos {
     border: 0.1vh solid #043F4D;
-    a{
-        color: #043F4D;
-    }
 }
 
+#terminos a{
+    color: #043F4D;
+}
 
 footer {
     padding: 3vh 10%;
@@ -222,6 +224,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 0vh 105vh 0vh 0;
 }
 
@@ -232,7 +235,6 @@ footer {
 
 .footer-section ul {
     list-style-type: none;
-    padding: 0  ;
     line-height: 5vh;
 }
 
@@ -249,6 +251,7 @@ footer {
     display: flex;
     justify-content: center;
     margin: 3vh 0;
+    flex-wrap: wrap;
 }
 
 .footer-section2 img {
@@ -275,18 +278,13 @@ footer {
     display: flex;
     justify-content: center;
     list-style-type: none;
-    padding: 0;
     gap: 2vh;
     flex-wrap: wrap;
 }
 
-.footer-section3 ul li {
-    color: #a3a2a3;
-    position: relative;
-}
-
 .footer-section3 ul li a {
     color: #a3a2a3;
+    position: relative;
     text-decoration: none;
 }
 
