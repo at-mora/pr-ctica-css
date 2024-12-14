@@ -102,12 +102,13 @@ button a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .container img {
     height: 50vh;
     width: auto;
+    flex-shrink: 0;
 }
 
 .container .text {
@@ -117,18 +118,27 @@ button a {
     flex-direction: column;
     margin-right: 5%;
     box-shadow: none;
+    flex: 1;
 }
 
 #green-container {
     background-color: #1E3932;
+    flex-direction: row;
 }
 
 #blue-container {
     background-color: #0044B4;
+    flex-direction: row-reverse;
 }
 
 #red-container {
     background-color: #D50032;
+    flex-direction: row;
+}
+
+#green-container 2 {
+    background-color: #1E3932;
+    flex-direction: row-reverse;
 }
 
 #conocemas {
