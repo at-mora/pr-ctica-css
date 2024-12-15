@@ -329,7 +329,6 @@ footer {
     font-weight: bold;
 }
 
-/* Sección de bebidas, alimentos y café */
 .bebidas, .alimentos, .cafe {
     text-align: left;
     margin: 5vh auto;
@@ -385,8 +384,8 @@ footer {
     margin-top: 1vh;
     text-align: center;
     color: #212121;
-    width: max-content; /* Asegura que el texto ocupe toda la anchura */
-    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+    width: max-content;
+    white-space: nowrap;
     justify-self: start;
 }
 
@@ -394,312 +393,336 @@ footer {
     border: 1vh solid #D4E9E2;
 }
 
+
 /* REWARDS */
-/* Contenedor fijo a la izquierda */
-.left-fijo {
-    position: fixed;
-    width: 40%;
-    height: 100vh;
-    background-color: #1E3932; /* Color verde */
-    padding: 1em;
-    top: 0;
-    left: 0;
-    color: white; /* Texto en blanco para mejor legibilidad */
-}
-
-/* Contenedor principal para las recompensas */
-.starbucks-rewards {
-    margin-left: 40%;
-    padding: 2em;
-    background-color: #fff;
-}
-
-.rewards.green, .rewards.gold {
-    background-color: white;
-    padding: 2em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.rewards.green h2, .rewards.gold h2, .rewards-summary h2, .steps h2, .order-pay h2, .customize h2, .information h2, .highlight h2 {
-    font-size: 1.5em; /* Fuente más pequeña */
-    color: #1E3932; /* Color verde Starbucks */
-    text-align: center; /* Centra el texto */
-    padding: 1vh 0;
-}
-
-/* Configuración para las imágenes y su disposición en filas */
 /* Header fijo */
 header {
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
-    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    z-index: 1000;
 }
 
 /* Espaciado para el contenido debajo del header */
 .starbucks-rewards {
-    padding-top: 10vh; /* Ajusta este valor según la altura del header */
-}
-
-/* Contenedor fijo a la izquierda */
-.left-fijo {
-    position: fixed;
-    width: 40%;
-    height: 100vh;
-    background-color: #1E3932; /* Color verde */
-    padding: 1em;
-    top: 10vh; /* Debajo del header */
-    left: 0;
-    color: white; /* Texto en blanco para mejor legibilidad */
-}
-
-/* Contenedor principal para las recompensas */
-.starbucks-rewards {
+    padding-top: 10vh;
     margin-left: 40%;
     padding: 2em;
     background-color: #fff;
 }
 
-.rewards.green, .rewards.gold {
-    background-color: white;
-    padding: 2em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/* Contenedor fijo a la izquierda */
+.left-fijo { 
+    position: fixed; 
+    width: 40%; 
+    height: 100vh; 
+    background-color: #1E3932; 
+    padding: 1em; 
+    top: 0; 
+    left: 0; 
+    color: white; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    z-index: 999; 
 }
 
-.rewards.green h2, .rewards.gold h2, .rewards-summary h2, .steps h2, .order-pay h2, .customize h2, .information h2, .highlight h2 {
-    font-size: 1.5em; /* Fuente más pequeña */
-    color: #1E3932; /* Color verde Starbucks */
-    text-align: center; /* Centra el texto */
-    padding: 1vh 0;
+.left-fijo img { 
+    max-width: 100%; 
+    height: auto; 
 }
 
-/* Configuración para las imágenes y su disposición en filas */
-.rewards-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 100%;
+.starbucks-rewards { 
+    margin-left: 40%; 
+    padding: 2em; 
+    background-color: #fff; 
 }
 
-.rewards-item {
-    width: 22%; /* Ajusta este valor si es necesario para que quepan 4 elementos en una fila */
-    margin-bottom: 1em;
-    text-align: center;
+.rewards.green, .rewards.gold { 
+    background-color: white; 
+    padding: 2em; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
 }
 
-.rewards-item img {
-    width: 100%;
-    height: auto;
+.rewards.green h2, .rewards.gold h2, .rewards-summary h2, .steps h2, .order-pay h2, .customize h2, .information h2, .highlight h2 { 
+    font-size: 1.5em; 
+    color: #1E3932; 
+    text-align: center; 
+    padding: 1vh 0; 
 }
 
-.rewards-item p {
-    margin-top: 0.5em;
-    color: #212121;
+header { 
+    position: fixed; 
+    width: 100%; 
+    top: 0; 
+    left: 0; 
+    z-index: 1000; 
 }
 
-/* Estilo para la sección de resumen */
-.rewards-summary {
-    background-color: #f1f0eb;
-    padding: 2em;
-    text-align: center;
+.starbucks-rewards { 
+    padding-top: 10vh; 
 }
 
-.rewards-summary div {
-    text-align: center;
-    margin: 1em 0;
+.left-fijo { 
+    position: fixed; 
+    width: 40%; 
+    height: 100vh; 
+    background-color: #1E3932; 
+    padding: 1em; 
+    top: 10vh; 
+    left: 0; 
+    color: white; 
 }
 
-.rewards-summary img {
-    margin: 0 auto;
-    width: 60vh;
-    height: auto;
-
+.starbucks-rewards { 
+    margin-left: 40%; 
+    padding: 2em; 
+    background-color: #fff; 
 }
 
-/* Contenedor de pasos */
-.steps {
-    background-color: white;
-    padding: 2em;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+.rewards.green, .rewards.gold { 
+    background-color: white; 
+    padding: 2em; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
 }
 
-.steps h2 {
-    text-align: center;
-    width: 100%;
+.rewards.green h2, .rewards.gold h2, .rewards-summary h2, .steps h2, .order-pay h2, .customize h2, .information h2, .highlight h2 { 
+    font-size: 1.5em; 
+    color: #1E3932; 
+    text-align: center; 
+    padding: 1vh 0; 
 }
 
-.steps ol {
-    padding: 0;
-    list-style: none;
-    width: 50%;
+.rewards-grid { 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    width: 100%; 
 }
 
-.steps ol li {
-    display: flex;
-    align-items: center;
-    margin: 1em 0;
+.rewards-item { 
+    width: 22%; 
+    margin-bottom: 1em; 
+    text-align: center; 
 }
 
-.steps .step-number {
-    width: 4vh;
-    height: 4vh;
-    border-radius: 50%;
-    background: #1E3932;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 1em;
+.rewards-item img { 
+    width: 100%; 
+    height: auto; 
 }
 
-.steps img {
-    margin-left: 1em;
-    width: 30%;
-    height: auto; /* Asegura que la altura se ajuste proporcionalmente */
+.rewards-item p { 
+    margin-top: 0.5em; 
+    color: #212121; 
 }
 
-/* Ajuste específico para la imagen del paso 2 */
-#step2 {
-    width: 70%;
+.rewards-summary { 
+    background-color: #f1f0eb; 
+    padding: 2em; 
+    text-align: center; 
 }
 
-.img-chica {
-    width: 20%;
-    display: block;
-    margin: auto;
+.rewards-summary div { 
+    text-align: center; 
+    margin: 1em 0; 
 }
 
-.video iframe {
-    width: 100%;
-    height: auto;
+.rewards-summary img { 
+    margin: 0 auto; 
+    width: 60vh; 
+    height: auto; 
 }
 
-
-.order-pay {
-    background-color: #f1f0eb;
-    padding: 2em;
-    text-align: center;
+.steps { 
+    background-color: white; 
+    padding: 2em; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
 }
 
-.order-pay-grid {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.steps h2 { 
+    text-align: center; 
+    width: 100%; 
 }
 
-.order-pay-row {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 2em; /* Espacio entre las filas */
+.steps ol { 
+    padding: 0; 
+    list-style: none; 
+    width: 50%; 
 }
 
-.order-pay-item {
-    display: flex;
-    align-items: center;
-    width: 30%; /* Ajusta este valor si es necesario para que quepan 3 elementos en una fila */
-    text-align: left;
+.steps ol li { 
+    display: flex; 
+    align-items: center; 
+    margin: 1em 0; 
 }
 
-.order-pay-item img {
-    width: 50px; /* Tamaño de las imágenes */
-    height: auto;
-    margin-right: 1em;
+.steps .step-number { 
+    width: 4vh; 
+    height: 4vh; 
+    border-radius: 50%; 
+    background: #1E3932; 
+    color: #fff; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    margin-right: 1em; 
 }
 
-.order-pay-item p {
-    margin: 0;
-    color: #212121;
-    text-align: left;
+.steps img { 
+    margin-left: 1em; 
+    width: 30%; 
+    height: auto; 
 }
 
-.customize {
-    background-color: #f1f0eb;
-    padding: 2em;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#step2 { 
+    width: 70%; 
 }
 
-.customize-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
+.img-chica { 
+    width: 20%; 
+    display: block; 
+    margin: auto; 
 }
 
-.customize h2 {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 1em;
+.video iframe { 
+    width: 100%; 
+    height: auto; 
 }
 
-.customize p {
-    width: 60%;
-    color: #212121;
-    text-align: left;
-    margin-right: 1em; /* Espacio entre el texto y la imagen */
+.order-pay { 
+    background-color: #f1f0eb; 
+    padding: 2em; 
+    text-align: center; 
 }
 
-.customize img {
-    width: 60%;
-    height: auto;
+.order-pay-grid { 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
 }
 
-.information {
-    text-align: center;
-    padding: 2em 0;
+.order-pay-row { 
+    display: flex; 
+    justify-content: space-between; 
+    margin-bottom: 2em; 
 }
 
-.information img {
-    display: block;
-    margin: 0 auto;
-    width: 40%;
-    height: auto;
+.order-pay-item { 
+    display: flex; 
+    align-items: center; 
+    width: 30%; 
+    text-align: left; 
 }
 
-#store {
-    width: 100%;
+.order-pay-item img { 
+    width: 50px; 
+    height: auto; 
+    margin-right: 1em; 
 }
 
-.information a {
-    margin: 1em;
-    display: inline-block;
+.order-pay-item p { 
+    margin: 0; 
+    color: #212121; 
+    text-align: left; 
 }
 
-.highlight {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2em 0;
-    background-color: #f1f0eb;
+.customize { 
+    background-color: #f1f0eb; 
+    padding: 2em; 
+    text-align: center; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
 }
 
-.highlight img {
-    width: 40%;
-    height: auto;
-    margin-left: auto; /* Alinear hacia la derecha */
+.customize-content { 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    width: 100%; 
 }
 
-.highlight p {
-    width: 50%;
-    text-align: left;
-    margin-right: auto; /* Alinear hacia la izquierda */
+.customize h2 { 
+    width: 100%; 
+    text-align: center; 
+    margin-bottom: 1em; 
 }
 
-.footer-image {
-    text-align: center;
-    padding: 2em 0;
+.customize p { 
+    width: 60%; 
+    color: #212121; 
+    text-align: left; 
+    margin-right: 1em; 
 }
 
-.footer-image img {
-    width: 100%;
-    height: auto;
+.customize img { 
+    width: 60%; 
+    height: auto; 
+}
+
+.information { 
+    text-align: center; 
+    padding: 2em 0; 
+}
+
+.information img { 
+    display: block; 
+    margin: 0 auto; 
+    width: 40%; 
+    height: auto; 
+}
+
+#store { 
+    width: 100%; 
+}
+
+.information a { 
+    margin: 1em; 
+    display: inline-block; 
+}
+
+.highlight { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 2em 0; 
+    background-color: #f1f0eb; 
+}
+
+.highlight img { 
+    width: 40%; 
+    height: auto; 
+    margin-left: auto; 
+}
+
+.highlight p { 
+    width: 50%; 
+    text-align: left; 
+    margin-right: auto; 
+}
+
+.footer-image { 
+    text-align: center; 
+    padding: 2em 0; 
+}
+
+.footer-image img { 
+    width: 100%; 
+    height: auto; 
+}
+
+.rewards-footer { 
+    padding: 3vh 10%; 
+    box-shadow: 0vh .01vh 0.5vh rgba(0, 0, 0, 0.549); 
+    margin-left: 40%; 
+    width: 60%; 
 }
