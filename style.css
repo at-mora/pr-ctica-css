@@ -394,4 +394,97 @@ footer {
     border: 1vh solid #D4E9E2;
 }
 
+/* REWARDS */
+.starbucks-rewards {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.left-fixed {
+    position: fixed;
+    width: 200px; /* Fijo */
+    padding: 1em;
+    background: #fff;
+    height: 100vh;
+}
+
+.intro, .rewards, .rewards-summary, .steps, .video, .order-pay, .customize, .information, .highlight, .footer-image {
+    margin-left: 220px; /* Espacio para el contenedor fijo */
+    padding: 2em;
+}
+
+.intro h1, .intro p, .rewards h2, .rewards-summary h2, .steps h2, .video iframe, .order-pay h2, .customize h2, .information h2, .highlight h2, .footer-image img {
+    text-align: center;
+}
+
+/* Estilo para las imágenes y textos de la sección "green" */
+.rewards img {
+    width: calc(25% - 1em); /* 4 imágenes por fila */
+    margin: 0.5em;
+    display: block;
+    margin-left: 0; /* Alinea las imágenes a la izquierda */
+    border-radius: 50%;
+}
+
+.rewards p {
+    text-align: center;
+    color: #212121;
+    margin: 0.5em 0;
+}
+
+/* Estilo para el video */
+.video iframe {
+    width: 100%;
+    height: 505px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Estilo para la sección de beneficios Gold */
+.rewards.gold {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white; /* Blanco */
+    padding: 2em;
+    justify-content: space-around;
+}
+
+.rewards.gold img {
+    width: calc(22% - 1em); /* 4 imágenes por fila */
+    margin: 0.5em;
+}
+
+.rewards.gold p {
+    text-align: center;
+    color: #212121;
+    margin: 0.5em 0;
+}
+
+/* Estilo para la sección de resumen */
+.rewards-summary div {
+    text-align: center;
+    margin: 1em 0;
+}
+
+.rewards-summary img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.rewards-summary p {
+    text-align: center;
+    color: #212121;
+    margin: 0.5em 0;
+}
+
+/* Estilo para la sección de pasos */
+.steps ol {
+    padding: 0;
+    list-style: none;
+}
+
+.steps ol li {
+    display: flex;
+    align-items: center;
+    margin: 1[_{{{CITATION{{{_1{](https://github.com/la9una/web/tree/ba1073ae044ebb7b538a3b13f0f9598f7c410bb6/docs%2Fbootstrap%2Falignci.md)
